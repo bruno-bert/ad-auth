@@ -1,0 +1,20 @@
+{
+    "AUTH_REQUEST": {
+        "client_id": "srjkhsfhjklhjlksadhjlhjlkfasd",
+        "response_type": "code",
+        "response_mode": "query",
+        "scope": "openid email profile"
+    },
+    "TOKEN_REQUEST": {
+        "client_id": "sarhjklsadfjkljhakljk;lsdfajkldsfa",
+        "grant_type": "authorization_code",
+        "client_secret": "sdfajklsdaglbkhjhjlsadg"
+    },
+    "DISTRIBUTION": "test",
+    "PRIVATE_KEY": "nope",
+    "PUBLIC_KEY": "more nope",
+    "TENANT": "secrets",
+    "DISCOVERY_DOCUMENT": "so many secrets",
+    "SESSION_DURATION": 28800,
+    "CALLBACK_PATH": "/auth/callback"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "ad-auth-fn",
+    "version": "0.0.0",
+    "description": "auth using Azue AD on Lambda Edge",
+    "author": "bruno de paula",
+    "homepage": "",
+    "license": "ISC",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "build": "echo \"no build needed\",",
+        "lint": "echo \"computer says no\","
+    },
+    "dependencies": {
+        "async-execute": "^1.2.0",
+        "axios": "^0.19.2",
+        "contentstack": "^3.11.0",
+        "cookie": "^0.4.1",
+        "jsonwebtoken": "^8.5.1",
+        "jwk-to-pem": "^2.0.3",
+        "ssm-cfg-manager": "^1.0.0",
+        "bunyan": "^1.8.15"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.23",
+        "jest": "^24.9.0"
+    },
+    "peerDependencies": {
+        "aws-sdk": "^2.678.0"
+    }
+}

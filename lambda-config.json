@@ -1,0 +1,10 @@
+{
+    "region": "LATAM",
+    "environment": "dev",
+    "prefix": "jia",
+    "standardizedEnv": "dev",
+    "googlebot": { "allowLevel2": true },
+    "wwwRedirEnabled": true,
+    "domain": "https://www.jiashouse.jnj.com",
+    "logLevel": "info"
+}
